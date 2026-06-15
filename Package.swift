@@ -42,7 +42,7 @@ let package = Package(
             ],
             path: "Sources/Wrapper",
             resources: [
-                .process("Resources")
+                .copy("Resources/OneLoginResource.bundle")
             ]
         )
     ]
